@@ -4,10 +4,10 @@ import pickle
 
 
 
-with open(r'C:\Users\HP\python projects\ML e commerce\APP\models\scaler.pkl','rb') as scaler_file:
+with open('models\scaler.pkl','rb') as scaler_file:
     loaded_scaler = pickle.load(scaler_file)
 
-with open(r'C:\Users\HP\python projects\ML e commerce\APP\models\model.pkl','rb') as model_file:
+with open('models\model.pkl','rb') as model_file:
     loaded_model = pickle.load(model_file)
 
 
