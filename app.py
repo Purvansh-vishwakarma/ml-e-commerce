@@ -4,10 +4,10 @@ import pickle
 
 
 
-with open(r'\models\scaler.pkl','rb') as scaler_file:
+with open(r'models/scaler.pkl','rb') as scaler_file:
     loaded_scaler = pickle.load(scaler_file)
 
-with open(r'\models\model.pkl','rb') as model_file:
+with open(r'models/model.pkl','rb') as model_file:
     loaded_model = pickle.load(model_file)
 
 
